@@ -25,11 +25,16 @@ Prerequisites: [Docker] (https://www.docker.com) or NGINX installed locally.
    docker run -p 8080:80 nginx-test-app5
 
 5. Configuration Details
+
 Port: Listens on port 8080.
+
 Features: Static file serving, reverse proxy test, and custom 404 pages.
+
 https://github.com/lebinh/nginx-conf/blob/master/README.md#:~:text=Links-,The%20Nginx%20Command,Force%20Trailing%20Slash
 
 6. Verification
+
 Run the following command to test the response:
+
 curl -i localhost:8080
 
