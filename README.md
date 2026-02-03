@@ -5,17 +5,14 @@ A lightweight sandbox for testing NGINX configurations and custom build modules.
 Prerequisites: [Docker] (https://www.docker.com) or NGINX installed locally.
 
 1. Clone the repo:
-   bash
    git clone https://github.com
    cd nginx-test-app
 
 2. Verify Configuration:
    Test your nginx.conf for syntax errors:
-   bash
    nginx -t -c $(pwd)/nginx.conf
 
 3. Run the app
-   bash
 # If using Docker
    docker build -t nginx-test-app .
    docker run -p 8080:80 nginx-test-app5
