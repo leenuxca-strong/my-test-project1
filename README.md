@@ -1,4 +1,4 @@
-# NGINX Test Project
+NGINX Test Project
 A lightweight sandbox for testing NGINX configurations and custom build modules.
 
 ## 🚀 Getting Started
