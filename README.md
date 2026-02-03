@@ -16,7 +16,7 @@ Prerequisites: [Docker] (https://www.docker.com) or NGINX installed locally.
 
 3. Run the app
    bash
-   # If using Docker
+# If using Docker
    docker build -t nginx-test-app .
    docker run -p 8080:80 nginx-test-app5
 
