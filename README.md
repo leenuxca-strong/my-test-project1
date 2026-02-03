@@ -1,7 +1,7 @@
-NGINX Test Project
+# NGINX Test Project
 A lightweight sandbox for testing NGINX configurations and custom build modules.
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 Prerequisites: [Docker] (https://www.docker.com) or NGINX installed locally.
 
 1. Clone the repo:
