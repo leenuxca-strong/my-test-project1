@@ -6,9 +6,9 @@ Prerequisites: [Docker] (https://www.docker.com) or NGINX installed locally.
 
 1. Clone the repo:
 
-git clone https://github.com
+   git clone https://github.com
 
-cd nginx-test-app
+   cd nginx-test-app
 
 2. Verify Configuration:
    Test your nginx.conf for syntax errors:
